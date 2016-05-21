@@ -1,0 +1,24 @@
+{
+  "name": "express-dataset-api",
+  "description": "Serves data from json files",
+  "main": "index.js",
+  "authors": [
+    "Steven van der Merwe"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SaberZA/express-dataset-api",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "identity-styleguide": "cutestrap#^1.2.1"
+  }
+}
