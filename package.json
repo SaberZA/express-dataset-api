@@ -4,7 +4,8 @@
   "description": "Serves data from json files",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "pug": "^2.0.0-alpha7"
   },
   "devDependencies": {
     "gulp": "gulpjs/gulp#4.0"

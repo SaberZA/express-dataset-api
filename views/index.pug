@@ -1,0 +1,34 @@
+html
+    head
+        title= title
+        link(href='/public/styles/cutestrap.css', rel='stylesheet')
+        link(href='/public/styles/style.css', rel='stylesheet')
+        
+        script(src='/public/scripts/script.js')        
+    body
+        h1= label
+        #content            
+            .grid
+                div
+                    .content-box 
+                        .content-box-header US Zip Codes
+                        .content-box-body
+                            include /public/schemas/ZipcodeSchema.cs                    
+                div
+                    .content-box
+                        .content-box-header Startup Companies
+                        .content-box-body
+                            include /public/schemas/StartupCompanySchema.cs
+                div
+                    .content-box 
+                        .content-box-header Projects
+                        .content-box-body 
+                            include /public/schemas/ProjectSchema.cs
+                div
+                    .content-box 
+                        .content-box-header Stocks
+                        .content-box-body
+                            include /public/schemas/StocksSchema.cs
+                
+        
+        
